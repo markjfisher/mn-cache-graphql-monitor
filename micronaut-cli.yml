@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: mn.cache.graphql.monitor
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle_kotlin
+features: [annotation-api, app-name, cache-caffeine, gradle, graphql, http-client, junit, kotlin, kotlin-application, logback, management, micrometer, micrometer-prometheus, netty-server, readme, shade, yaml]

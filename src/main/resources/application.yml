@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: mnCacheGraphqlMonitor
+  metrics:
+    export:
+      prometheus:
+        enabled: true
+        descriptions: true
+        step: PT1M
+    enabled: true
+  caches:
+    delivery-service:
+      initial-capacity: 100
+      record-stats: true
